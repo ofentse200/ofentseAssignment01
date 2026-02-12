@@ -10,7 +10,6 @@ public class UndergraduateStudent extends PartTimeStudent {
         this.scholarshipAmount = builder.scholarshipAmount;
     }
 
-
     @Override
     public double calculateTuition() {
         double baseAmount = creditHours * 500; // $500 per credit hour

@@ -1,6 +1,7 @@
 package domain;
 
 public abstract class PartTimeStudent {
+
     protected String studentId;
     protected String name;
     protected String email;
@@ -13,6 +14,7 @@ public abstract class PartTimeStudent {
         this.name = name;
         this.email = email;
         this.department = department;
+
     }
 
     public abstract double calculateTuition();
@@ -27,11 +29,9 @@ public abstract class PartTimeStudent {
     public String getName() {
         return name;
     }
-
     public String getEmail() {
         return email;
     }
-
     public String getDepartment() {
         return department;
     }
@@ -47,7 +47,6 @@ public abstract class PartTimeStudent {
     }
 
 // Builder
-
 
 public static class PartTimeStudentBuilder {
     private String studentId;

@@ -2,9 +2,9 @@ package domain;
 
 public class GraduateStudent extends PartTimeStudent {
 
-
     private boolean researchAssistant;
     private double stipend;
+
     private GraduateStudent(GraduateStudentBuilder builder) {
         super(builder.studentId, builder.name, builder.email, builder.department);
         this.researchAssistant = builder.researchAssistant;
@@ -27,8 +27,10 @@ public class GraduateStudent extends PartTimeStudent {
 
     @Override
 
+    public void displayStudentDetails()
 
-    public void displayStudentDetails() {
+    {
+
         System.out.println("========================================");
         System.out.println("Student Type: " + getStudentType());
         System.out.println("Student ID: " + studentId);
@@ -39,9 +41,11 @@ public class GraduateStudent extends PartTimeStudent {
         System.out.println("Stipend: R" + stipend);
         System.out.println("Tuition Amount: R" + calculateTuition());
         System.out.println("========================================");
+
     }
 
     // Getters
+
     public boolean isResearchAssistant() {
         return researchAssistant;
     }
@@ -60,9 +64,7 @@ public class GraduateStudent extends PartTimeStudent {
                 '}';
     }
 
-
     // Builder
-
 
     public static class GraduateStudentBuilder {
         private String studentId;

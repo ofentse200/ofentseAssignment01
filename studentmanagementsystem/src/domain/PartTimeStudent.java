@@ -7,21 +7,15 @@ public abstract class PartTimeStudent {
     protected String email;
     protected String department;
 
-  // Constructor
-
     protected PartTimeStudent(String studentId, String name, String email, String department) {
         this.studentId = studentId;
         this.name = name;
         this.email = email;
         this.department = department;
-
     }
-
     public abstract double calculateTuition();
     public abstract String getStudentType();
     public abstract void displayStudentDetails();
-
-    // Getters
 
     public String getStudentId() {
         return studentId;
@@ -46,8 +40,6 @@ public abstract class PartTimeStudent {
                 '}';
     }
 
-// Builder
-
 public static class PartTimeStudentBuilder {
     private String studentId;
     private String name;
@@ -62,28 +54,21 @@ public static class PartTimeStudentBuilder {
         this.email = email;
         this.department = department;
     }
-
     public PartTimeStudentBuilder(PartTimeStudentBuilder partTimeStudentBuilder) {
 
     }
-
     public PartTimeStudent.PartTimeStudentBuilder researchAssistant(boolean researchAssistant) {
         this.researchAssistant = researchAssistant;
         return this;
     }
-
     public PartTimeStudent.PartTimeStudentBuilder stipend(double stipend) {
         this.stipend = stipend;
         return this;
     }
-
     public GraduateStudent build() {
         return new PartTimeStudentBuilder( this).build();
     }
-
-
     }
-
 }
 
 

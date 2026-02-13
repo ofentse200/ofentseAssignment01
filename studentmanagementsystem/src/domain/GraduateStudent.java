@@ -53,7 +53,6 @@ public class GraduateStudent extends PartTimeStudent {
     public double getStipend() {
         return stipend;
     }
-
     @Override
     public String toString() {
         return "GraduateStudent{" +
@@ -63,9 +62,6 @@ public class GraduateStudent extends PartTimeStudent {
                 ", stipend=" + stipend +
                 '}';
     }
-
-    // Builder
-
     public static class GraduateStudentBuilder {
         private String studentId;
         private String name;
@@ -73,24 +69,20 @@ public class GraduateStudent extends PartTimeStudent {
         private String department;
         private boolean researchAssistant = false;
         private double stipend = 0;
-
         public GraduateStudentBuilder(String studentId, String name, String email, String department) {
             this.studentId = studentId;
             this.name = name;
             this.email = email;
             this.department = department;
         }
-
         public GraduateStudentBuilder researchAssistant(boolean researchAssistant) {
             this.researchAssistant = researchAssistant;
             return this;
         }
-
         public GraduateStudentBuilder stipend(double stipend) {
             this.stipend = stipend;
             return this;
         }
-
         public GraduateStudent build() {
             return new GraduateStudent(this);
         }

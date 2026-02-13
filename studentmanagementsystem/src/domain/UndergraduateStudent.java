@@ -1,7 +1,6 @@
 package domain;
 
 public class UndergraduateStudent extends PartTimeStudent {
-
     private int creditHours;
     private double scholarshipAmount;
     private UndergraduateStudent(UndergraduateStudentBuilder builder) {
@@ -9,7 +8,6 @@ public class UndergraduateStudent extends PartTimeStudent {
         this.creditHours = builder.creditHours;
         this.scholarshipAmount = builder.scholarshipAmount;
     }
-
     @Override
     public double calculateTuition() {
         double baseAmount = creditHours * 500; // $500 per credit hour
@@ -36,7 +34,6 @@ public class UndergraduateStudent extends PartTimeStudent {
         System.out.println("========================================");
     }
 
-    // Getters
     public int getCreditHours() {
         return creditHours;
     }

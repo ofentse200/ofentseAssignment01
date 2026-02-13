@@ -1,7 +1,6 @@
 import domain.PartTimeStudent;
 import domain.UndergraduateStudent;
 import domain.GraduateStudent;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -10,14 +9,11 @@ public class Main {
                 .creditHours(15)
                 .scholarshipAmount(5000)
                 .build();
-
         PartTimeStudent g1 = new GraduateStudent.GraduateStudentBuilder("221108785", "Daniel masemola", "221108785@mycput.ac.za", "Computer Engineering")
                 .researchAssistant(true)
                 .stipend(12000)
                 .build();
-
         u1.displayStudentDetails();
         g1.displayStudentDetails();
-
     }
 }

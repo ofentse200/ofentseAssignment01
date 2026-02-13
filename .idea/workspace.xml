@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3bb2256-b8d9-4f78-947f-e55be668854f" name="Changes" comment="ASSIGNMENT 1 &#10;OFENTSE LEBAKA&#10;221108785">
+      <change beforePath="$PROJECT_DIR$/studentmanagementsystem/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/studentmanagementsystem/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studentmanagementsystem/src/domain/GraduateStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/studentmanagementsystem/src/domain/GraduateStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studentmanagementsystem/src/domain/PartTimeStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/studentmanagementsystem/src/domain/PartTimeStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studentmanagementsystem/src/domain/UndergraduateStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/studentmanagementsystem/src/domain/UndergraduateStudent.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ofentse200"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ofentse200/ofentseAssignment01.git",
+    "accountId": "dd42076e-656f-4aa6-b863-0700b749fe9d"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="39ZgWQB7ZHE2XAmAkBKuz8rjn3S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -13,5 +70,49 @@
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3bb2256-b8d9-4f78-947f-e55be668854f" name="Changes" comment="" />
+      <created>1770909037726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770909037726</updated>
+      <workItem from="1770909039469" duration="1722000" />
+    </task>
+    <task id="LOCAL-00001" summary="ASSIGNMENT 1 &#10;OFENTSE LEBAKA&#10;221108785">
+      <option name="closed" value="true" />
+      <created>1770909258311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770909258311</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ASSIGNMENT 1 &#10;OFENTSE LEBAKA&#10;221108785">
+      <option name="closed" value="true" />
+      <created>1770909342154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770909342154</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ASSIGNMENT 1 &#10;OFENTSE LEBAKA&#10;221108785" />
+    <option name="LAST_COMMIT_MESSAGE" value="ASSIGNMENT 1 &#10;OFENTSE LEBAKA&#10;221108785" />
   </component>
 </project>
